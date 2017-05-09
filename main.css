@@ -1,0 +1,102 @@
+*{
+	font-family: verdana;
+}
+header{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	height: 60px;
+	background-color: #DDD;
+	border-bottom: 1px #AAA solid;
+}
+header > *{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+header > div{
+	left:20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+header>div>a{
+	text-decoration: none;
+	color: black;
+}
+header > nav{
+	right:20px;
+}
+header > nav > a{
+	text-decoration: none;
+	color: purple;
+	margin-left: 20px;
+}
+main{
+	margin-top: 100px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.container{
+	margin-top:45px;
+	margin-bottom: 45px;
+}
+form label{
+	display: block;
+}
+input[type="text"]{
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px #DDD solid;
+	width: 400px;
+}
+input[type="image"]{
+	max-height: 30px;
+	border-radius: 3px;
+	border: 1px #DDD solid;
+}
+input[type="image"]:hover{
+	box-shadow: 0px 0px 5px #DDD;
+}
+.pagination{
+	font-size: 0;
+}
+.pagination *{
+	border:1px #DDD solid;
+	padding:10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.pagination a:hover{
+	background-color: #EEE;
+}
+.pagination .prev{
+	border-radius: 3px 0px 0px 3px;
+	border-right: 0px;
+}
+.pagination .next{
+	border-radius: 0px 3px 3px 0px;
+	border-left: 0px;
+}
+.pagination span{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.result{
+	margin-bottom: 20px;
+}
+.result *{
+	display: inline;
+}
+.result a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+.result a:hover{
+	color: red;
+}
+.result div{
+	color: #888;
+}
